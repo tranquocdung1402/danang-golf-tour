@@ -15,21 +15,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const backgroundImages = {
-    "--image-hero-danang": `url("${sitePath("/images/hero-danang-golf-coast.png")}")`,
-    "--image-golf-legend": `url("${sitePath("/images/golf-legend-danang.png")}")`,
-    "--image-golf-hoiana": `url("${sitePath("/images/golf-hoiana-shores.png")}")`,
-    "--image-golf-vinpearl": `url("${sitePath("/images/golf-vinpearl-nam-hoi-an.png")}")`,
-    "--image-golf-montgomerie": `url("${sitePath("/images/golf-montgomerie-links.png")}")`,
-    "--image-lifestyle": `url("${sitePath("/images/experience-golf-resort-lifestyle.png")}")`,
-    "--image-my-khe": `url("${sitePath("/images/destination-my-khe-beach.png")}")`,
-    "--image-son-tra": `url("${sitePath("/images/destination-son-tra-peninsula.png")}")`,
-    "--image-linh-ung": `url("${sitePath("/images/destination-linh-ung-pagoda.png")}")`,
-    "--image-dragon": `url("${sitePath("/images/destination-dragon-bridge.png")}")`,
-    "--image-hoi-an": `url("${sitePath("/images/destination-hoi-an-ancient-town.png")}")`,
-    "--image-thu-bon": `url("${sitePath("/images/destination-thu-bon-river.png")}")`,
-    "--image-ba-na": `url("${sitePath("/images/destination-ba-na-hills.png")}")`,
-    "--image-golden-bridge": `url("${sitePath("/images/destination-golden-bridge.png")}")`,
-    "--image-marble": `url("${sitePath("/images/destination-marble-mountains.png")}")`,
+    "--image-hero-danang": `url("${sitePath("/images/hero-danang-golf-coast.webp")}")`,
+    "--image-golf-legend": `url("${sitePath("/images/golf-legend-danang.webp")}")`,
+    "--image-golf-hoiana": `url("${sitePath("/images/golf-hoiana-shores.webp")}")`,
+    "--image-golf-vinpearl": `url("${sitePath("/images/golf-vinpearl-nam-hoi-an.webp")}")`,
+    "--image-golf-montgomerie": `url("${sitePath("/images/golf-montgomerie-links.webp")}")`,
+    "--image-lifestyle": `url("${sitePath("/images/experience-golf-resort-lifestyle.webp")}")`,
+    "--image-my-khe": `url("${sitePath("/images/destination-my-khe-beach.webp")}")`,
+    "--image-son-tra": `url("${sitePath("/images/destination-son-tra-peninsula.webp")}")`,
+    "--image-linh-ung": `url("${sitePath("/images/destination-linh-ung-pagoda.webp")}")`,
+    "--image-dragon": `url("${sitePath("/images/destination-dragon-bridge.webp")}")`,
+    "--image-hoi-an": `url("${sitePath("/images/destination-hoi-an-ancient-town.webp")}")`,
+    "--image-thu-bon": `url("${sitePath("/images/destination-thu-bon-river.webp")}")`,
+    "--image-ba-na": `url("${sitePath("/images/destination-ba-na-hills.webp")}")`,
+    "--image-golden-bridge": `url("${sitePath("/images/destination-golden-bridge.webp")}")`,
+    "--image-marble": `url("${sitePath("/images/destination-marble-mountains.webp")}")`,
   } as CSSProperties;
 
   return (

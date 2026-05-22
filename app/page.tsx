@@ -93,7 +93,7 @@ export default function Home() {
     <main>
       <header className="siteHeader" aria-label="YD Travel navigation">
         <a className="brand" href="#top" aria-label="YD Travel home">
-          <Image src={sitePath("/logo-transparent.png")} alt="YD Travel" width={92} height={74} priority />
+          <Image src={sitePath("/logo-transparent.webp")} alt="YD Travel" width={92} height={74} priority />
         </a>
         <nav className="nav" aria-label="Main navigation">
           {navItems.map((item) => (

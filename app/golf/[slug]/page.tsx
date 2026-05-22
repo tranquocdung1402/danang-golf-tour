@@ -42,7 +42,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
     <main className="detailPage">
       <header className="siteHeader" aria-label="YD Travel navigation">
         <a className="brand" href={sitePath("/")} aria-label="YD Travel home">
-          <Image src={sitePath("/logo-transparent.png")} alt="YD Travel" width={92} height={74} priority />
+          <Image src={sitePath("/logo-transparent.webp")} alt="YD Travel" width={92} height={74} priority />
         </a>
         <nav className="nav" aria-label="Main navigation">
           <a href={sitePath("/#岘港")}>岘港</a>
