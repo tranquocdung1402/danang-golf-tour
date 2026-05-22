@@ -81,7 +81,6 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
 
       <section className="detailIntro">
         <div className="detailIntroCopy">
-          <p className="sectionKicker">球场简介</p>
           <h2>球场档案</h2>
           <p>{course.summary}</p>
           <div className="detailLocation">
