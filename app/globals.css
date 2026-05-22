@@ -113,21 +113,21 @@ a {
 }
 
 .heroSlideOne {
-  background-image: url("/images/hero-danang-golf-coast.png");
+  background-image: var(--image-hero-danang);
 }
 
 .heroSlideTwo {
-  background-image: url("/images/golf-legend-danang.png");
+  background-image: var(--image-golf-legend);
   animation-delay: 6s;
 }
 
 .heroSlideThree {
-  background-image: url("/images/golf-hoiana-shores.png");
+  background-image: var(--image-golf-hoiana);
   animation-delay: 12s;
 }
 
 .heroSlideFour {
-  background-image: url("/images/experience-golf-resort-lifestyle.png");
+  background-image: var(--image-lifestyle);
   animation-delay: 18s;
 }
 
@@ -517,59 +517,59 @@ a {
 }
 
 .imageLegend {
-  background-image: linear-gradient(135deg, rgba(12, 42, 31, 0.08), rgba(12, 42, 31, 0.44)), url("/images/golf-legend-danang.png");
+  background-image: linear-gradient(135deg, rgba(12, 42, 31, 0.08), rgba(12, 42, 31, 0.44)), var(--image-golf-legend);
 }
 
 .imageHoiana {
-  background-image: linear-gradient(135deg, rgba(15, 46, 50, 0.08), rgba(15, 46, 50, 0.44)), url("/images/golf-hoiana-shores.png");
+  background-image: linear-gradient(135deg, rgba(15, 46, 50, 0.08), rgba(15, 46, 50, 0.44)), var(--image-golf-hoiana);
 }
 
 .imageVinpearl {
-  background-image: linear-gradient(135deg, rgba(16, 62, 50, 0.08), rgba(16, 62, 50, 0.44)), url("/images/golf-vinpearl-nam-hoi-an.png");
+  background-image: linear-gradient(135deg, rgba(16, 62, 50, 0.08), rgba(16, 62, 50, 0.44)), var(--image-golf-vinpearl);
 }
 
 .imageMontgomerie {
-  background-image: linear-gradient(135deg, rgba(25, 55, 43, 0.08), rgba(25, 55, 43, 0.44)), url("/images/golf-montgomerie-links.png");
+  background-image: linear-gradient(135deg, rgba(25, 55, 43, 0.08), rgba(25, 55, 43, 0.44)), var(--image-golf-montgomerie);
 }
 
 .imageMyKhe {
-  background-image: url("/images/destination-my-khe-beach.png");
+  background-image: var(--image-my-khe);
 }
 
 .imageSonTra {
-  background-image: url("/images/destination-son-tra-peninsula.png");
+  background-image: var(--image-son-tra);
 }
 
 .imageLinhUng {
-  background-image: url("/images/destination-linh-ung-pagoda.png");
+  background-image: var(--image-linh-ung);
 }
 
 .imageDragon {
-  background-image: url("/images/destination-dragon-bridge.png");
+  background-image: var(--image-dragon);
 }
 
 .imageHoiAn {
-  background-image: url("/images/destination-hoi-an-ancient-town.png");
+  background-image: var(--image-hoi-an);
 }
 
 .imageThuBon {
-  background-image: url("/images/destination-thu-bon-river.png");
+  background-image: var(--image-thu-bon);
 }
 
 .imageBaNa {
-  background-image: url("/images/destination-ba-na-hills.png");
+  background-image: var(--image-ba-na);
 }
 
 .imageGoldenBridge {
-  background-image: url("/images/destination-golden-bridge.png");
+  background-image: var(--image-golden-bridge);
 }
 
 .imageMarble {
-  background-image: url("/images/destination-marble-mountains.png");
+  background-image: var(--image-marble);
 }
 
 .imageLifestyle {
-  background-image: linear-gradient(135deg, rgba(15, 36, 29, 0.08), rgba(15, 36, 29, 0.34)), url("/images/experience-golf-resort-lifestyle.png");
+  background-image: linear-gradient(135deg, rgba(15, 36, 29, 0.08), rgba(15, 36, 29, 0.34)), var(--image-lifestyle);
 }
 
 .detailPage {

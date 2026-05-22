@@ -11,6 +11,7 @@ import {
   Waves,
 } from "lucide-react";
 import { golfCourses } from "../lib/golfCourses";
+import { sitePath } from "../lib/sitePaths";
 
 const navItems = ["岘港", "高尔夫", "会安", "度假体验"];
 
@@ -92,7 +93,7 @@ export default function Home() {
     <main>
       <header className="siteHeader" aria-label="YD Travel navigation">
         <a className="brand" href="#top" aria-label="YD Travel home">
-          <Image src="/logo-transparent.png" alt="YD Travel" width={92} height={74} priority />
+          <Image src={sitePath("/logo-transparent.png")} alt="YD Travel" width={92} height={74} priority />
         </a>
         <nav className="nav" aria-label="Main navigation">
           {navItems.map((item) => (
@@ -170,7 +171,7 @@ export default function Home() {
         </div>
         <div className="courseGrid">
           {golfCourses.map((course) => (
-            <a className="courseCard" href={`/golf/${course.slug}`} key={course.name}>
+            <a className="courseCard" href={sitePath(`/golf/${course.slug}/`)} key={course.name}>
               <div className={`visual ${course.imageClass}`}>
                 <span>{course.zh}</span>
               </div>

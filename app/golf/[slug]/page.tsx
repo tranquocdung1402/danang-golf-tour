@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowLeft, MapPin, Phone } from "lucide-react";
 import { notFound } from "next/navigation";
 import { getGolfCourse, golfCourses } from "../../../lib/golfCourses";
+import { sitePath } from "../../../lib/sitePaths";
 
 type GolfCoursePageProps = {
   params: {
@@ -40,14 +41,14 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
   return (
     <main className="detailPage">
       <header className="siteHeader" aria-label="YD Travel navigation">
-        <a className="brand" href="/" aria-label="YD Travel home">
-          <Image src="/logo-transparent.png" alt="YD Travel" width={92} height={74} priority />
+        <a className="brand" href={sitePath("/")} aria-label="YD Travel home">
+          <Image src={sitePath("/logo-transparent.png")} alt="YD Travel" width={92} height={74} priority />
         </a>
         <nav className="nav" aria-label="Main navigation">
-          <a href="/#岘港">岘港</a>
-          <a href="/#高尔夫">高尔夫</a>
-          <a href="/#会安">会安</a>
-          <a href="/#度假体验">度假体验</a>
+          <a href={sitePath("/#岘港")}>岘港</a>
+          <a href={sitePath("/#高尔夫")}>高尔夫</a>
+          <a href={sitePath("/#会安")}>会安</a>
+          <a href={sitePath("/#度假体验")}>度假体验</a>
         </nav>
       </header>
 
@@ -58,7 +59,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
               className="detailHeroImage"
               key={image}
               style={{
-                backgroundImage: `url(${image})`,
+                backgroundImage: `url(${sitePath(image)})`,
                 animationDelay: `${index * 6}s`,
               }}
             />
@@ -66,7 +67,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
         </div>
         <div className="detailHeroOverlay" />
         <div className="detailHeroContent">
-          <a className="backLink" href="/#高尔夫">
+          <a className="backLink" href={sitePath("/#高尔夫")}>
             <ArrowLeft size={18} />
             Back to Golf Courses / 返回高尔夫球场
           </a>
@@ -91,7 +92,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
         <div className="profileVisual">
           <div
             className="profileImage"
-            style={{ backgroundImage: `url(${course.sections[1]?.image ?? course.heroImage})` }}
+            style={{ backgroundImage: `url(${sitePath(course.sections[1]?.image ?? course.heroImage)})` }}
             aria-hidden="true"
           />
           <div className="profileBadge">
@@ -127,7 +128,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
             </aside>
             <div
               className="detailSectionImage"
-              style={{ backgroundImage: `url(${section.image})` }}
+              style={{ backgroundImage: `url(${sitePath(section.image)})` }}
               aria-hidden="true"
             />
             <div className="detailSectionBody">
