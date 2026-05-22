@@ -4,7 +4,7 @@ import { sitePath } from "../lib/sitePaths";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "YD Travel | Da Nang Golf & Leisure",
+  title: "YD Golf Tour",
   description:
     "Discover Da Nang as a premium golf and coastal travel destination, featuring world-class golf courses, beaches, heritage, and resort experiences.",
 };
