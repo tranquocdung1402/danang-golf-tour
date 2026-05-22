@@ -69,9 +69,9 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
         <div className="detailHeroContent">
           <a className="backLink" href={sitePath("/#高尔夫")}>
             <ArrowLeft size={18} />
-            Back to Golf Courses / 返回高尔夫球场
+            返回高尔夫球场
           </a>
-          <p className="eyebrow">GOLF COURSE DETAIL</p>
+          <p className="eyebrow">高尔夫球场详情</p>
           <h1>{course.zh}</h1>
           <h2>{course.name}</h2>
           <p>{course.summary}</p>
@@ -81,7 +81,7 @@ export default function GolfCoursePage({ params }: GolfCoursePageProps) {
 
       <section className="detailIntro">
         <div className="detailIntroCopy">
-          <p className="sectionKicker">COURSE PROFILE</p>
+          <p className="sectionKicker">球场简介</p>
           <h2>球场档案</h2>
           <p>{course.summary}</p>
           <div className="detailLocation">
